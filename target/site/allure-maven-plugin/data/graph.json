@@ -1,0 +1,25 @@
+{
+  "testCases" : [ {
+    "uid" : "8f27c1d78a7f2adf",
+    "name" : "Сценарий #1",
+    "title" : "Сценарий #1",
+    "time" : {
+      "start" : 1623607339054,
+      "stop" : 1623607373855,
+      "duration" : 34801
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c8c002d2073c11c2",
+    "name" : "Сценарий #2",
+    "title" : "Сценарий #2",
+    "time" : {
+      "start" : 1623607373860,
+      "stop" : 1623607402632,
+      "duration" : 28772
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

@@ -1,0 +1,12 @@
+my\company\autotests\pages\MarketMainPage.class
+my\company\autotests\steps\MarketSearchSteps.class
+my\company\autotests\steps\MarketCatalogSteps.class
+my\company\autotests\steps\AllScenarioSteps.class
+my\company\autotests\pages\BasePage.class
+my\company\autotests\pages\MarketGoodsPage.class
+my\company\autotests\pages\MarketSearchPage.class
+my\company\autotests\steps\MarketGoodsSteps.class
+my\company\autotests\steps\BaseSteps.class
+my\company\autotests\util\AllureReporter.class
+my\company\autotests\pages\MarketCatalogPage.class
+my\company\autotests\steps\MarketMainSteps.class
