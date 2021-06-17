@@ -10,7 +10,7 @@
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "c5123f310d2f6f97",
+      "uid" : "4352e4c7a4d597c8",
       "title" : "Сценарий #1",
       "statistic" : {
         "total" : 1,
@@ -21,19 +21,19 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "8f27c1d78a7f2adf",
+        "uid" : "de068120039e5054",
         "name" : "Сценарий #1",
         "title" : "Сценарий #1",
         "time" : {
-          "start" : 1623607339054,
-          "stop" : 1623607373855,
-          "duration" : 34801
+          "start" : 1623920794959,
+          "stop" : 1623920835898,
+          "duration" : 40939
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       } ]
     }, {
-      "uid" : "5ffd742a7aba0617",
+      "uid" : "1dfc14a8642c28de",
       "title" : "Сценарий #2",
       "statistic" : {
         "total" : 1,
@@ -44,13 +44,13 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "c8c002d2073c11c2",
+        "uid" : "705512813b8796c1",
         "name" : "Сценарий #2",
         "title" : "Сценарий #2",
         "time" : {
-          "start" : 1623607373860,
-          "stop" : 1623607402632,
-          "duration" : 28772
+          "start" : 1623920835905,
+          "stop" : 1623920870310,
+          "duration" : 34405
         },
         "severity" : "NORMAL",
         "status" : "PASSED"

@@ -15,4 +15,5 @@ public class MarketCatalogSteps {
         new MarketCatalogPage().selectMenuHeadphones();
     }
 
+
 }

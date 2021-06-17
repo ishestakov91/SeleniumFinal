@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SeleniumTask3" />
+        <module name="allure-junit-example" />
         <module name="SeleniumTask4" />
         <module name="Selenium" />
         <module name="SeleniumFinalTasks" />

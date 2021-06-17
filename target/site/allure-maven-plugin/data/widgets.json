@@ -11,9 +11,9 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1623607339054,
-        "stop" : 1623607402632,
-        "duration" : 63578
+        "start" : 1623920794959,
+        "stop" : 1623920870310,
+        "duration" : 75351
       }
     },
     "defects" : {
@@ -23,7 +23,7 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "e832f9efb3caf346",
+        "uid" : "ae0401b599e89cc",
         "title" : "ЯндексМаркет",
         "statistic" : {
           "total" : 2,

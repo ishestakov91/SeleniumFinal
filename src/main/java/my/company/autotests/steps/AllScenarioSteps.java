@@ -22,19 +22,34 @@ public class AllScenarioSteps {
         marketMainSteps.selectElectronics();
     }
 
-    @When("^Выбран раздел Телевизоры$")
-    public void selectTelevision() {
-        marketCatalogSteps.selectTelevision();
+    @When("^Выбран раздел (.+)$")
+    public void selectSection(String value) throws Throwable {
+        switch (value) {
+            case "Телевизоры":
+                marketCatalogSteps.selectTelevision();
+                break;
+            case "Наушники":
+                marketCatalogSteps.selectHeadphones();
+                break;
+        }
+
     }
 
-    @When("^Задать параметр поиска от 20000 рублей$")
-    public void fillPriceFrom20000() {
-        marketGoodsSteps.fillPriceFrom("20000");
+    @When("^Задать параметр поиска от (.+) рублей$")
+    public void fillPriceFrom(String value) throws Throwable {
+        marketGoodsSteps.fillPriceFrom(value);
     }
 
-    @When("^Выбрать производителей Samsung и LG$")
-    public void selectBrands() {
-        marketGoodsSteps.selectBrands();
+    @When("^Выбрать производителя (.+)$")
+    public void selectBrands(String value) throws Exception {
+        switch (value) {
+            case "Samsung и LG":
+                marketGoodsSteps.selectBrands();
+                break;
+            case "Beats":
+                marketGoodsSteps.selectBeats();
+                break;
+        }
     }
 
     @Then("^Проверить количество элементов на странице$")
@@ -60,22 +75,6 @@ public class AllScenarioSteps {
     @Then("^Проверить, что наименование товара соответствует запомненному значению$")
     public void checkSearchValue() {
         marketSearchSteps.checkSearchValue();
-    }
-
-
-    @When("^Выбран раздел Наушники$")
-    public void selectHeadphones() {
-        marketCatalogSteps.selectHeadphones();
-    }
-
-    @When("^Задать параметр поиска от 5000 рублей$")
-    public void fillPriceFrom5000() {
-        marketGoodsSteps.fillPriceFrom("5000");
-    }
-
-    @When("^Выбрать производителя Beats$")
-    public void selectBeats() {
-        marketGoodsSteps.selectBeats();
     }
 
     @Then("^Ждать$")
